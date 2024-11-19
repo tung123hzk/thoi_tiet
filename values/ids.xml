@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtTime" type="id" />
+    <item name="txtTemperature" type="id" />
+    <item name="txtHumidity" type="id" />
+    <item name="txtWindSpeed" type="id" />
+    <item name="txtWeatherCondition" type="id" />
+    <item name="btnChiaSe" type="id" />
+    <item name="btnCanhBao" type="id" />
+    <item name="btnNgayTiepTheo" type="id" />
+    <item name="txtThoiGianCapNhat" type="id" />
+    <item name="txtUVIndex" type="id" />
+    <item name="txtTocDoGio" type="id" />
+    <item name="txtChatLuongKhongKhi" type="id" />
+    <item name="txtTrangThaiMay" type="id" />
+    <item name="txtDoAm" type="id" />
+    <item name="txtTrangThai" type="id" />
+    <item name="txtNhietDo" type="id" />
+    <item name="txtTenQG" type="id" />
+    <item name="txtTenTP" type="id" />
+    <item name="btnTim" type="id" />
+    <item name="edtTimKiem" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="news_image" type="id" />
+    <item name="news_title" type="id" />
+    <item name="btn_submit_feedback" type="id" />
+    <item name="user_email" type="id" />
+    <item name="user_name" type="id" />
+    <item name="feedback_input" type="id" />
+</resources>

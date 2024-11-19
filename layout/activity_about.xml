@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới thiệu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:background="#FFEB3B"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="2dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/appDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng thời tiết cung cấp thông tin thời tiết chính xác và kịp thời, giúp bạn lên kế hoạch cho các hoạt động hàng ngày một cách dễ dàng."
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="#333333"
+        android:background="#BBDEFB"
+        android:padding="8dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tác giả: [Tên của bạn]"
+        android:textColor="#333333"
+        android:background="#C8E6C9"
+        android:padding="8dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/thankYouImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/thank"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:id="@+id/thankYouTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cảm ơn bạn đã sử dụng ứng dụng của chúng tôi!"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="#333333"
+        android:background="#FFE0B2"
+        android:padding="8dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đóng"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:elevation="2dp"/>
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF5722"
+        android:text=" Hãy gọi góp ý cho chúng tôi"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

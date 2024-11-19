@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_feedback"
+        android:icon="@drawable/feedback"
+        android:title="Phản hồi"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/clouds"
+        android:title="Giới thiệu"
+        />
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/news"
+       android:title="Tin tức"
+        app:showAsAction="always"
+/>
+    <item
+        android:id="@+id/video"
+        android:title="Hiện tượng thời tiết"
+        app:showAsAction="never" />
+</menu>
